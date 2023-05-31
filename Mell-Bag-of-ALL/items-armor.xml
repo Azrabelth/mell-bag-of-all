@@ -9,36 +9,35 @@
 		</update>
 	</info>
 <!--Maiden-shield-->
-	<element name="IronMaidenShield" type="Armor" source="Mell bag of all" id="ID_IRONMAIDENSHIELD">
-		<supports>ID_INTERNAL_ARMOR_GROUP_IRONMAIDENSHIELD</supports>
+	<element name="SilverMaiden Shield" type="Magic Item" source="Mell bag of all" id="ID_IRONMAIDENSHIELD">
 		<description>
-			<p>A shield is made of pure silver and is carried in one hand. Wielding a shield increases your Armor Class by 2. If the opponent attack failed of AC - 3, it take 1D8 magical perf damage. One by day, can make a reaction to inflict bleed to a opponent</p>
+			<p>Crafted from gleaming silver and fashioned in the form of an iron maiden, this shield strikes fear into the hearts of even the most hardened warriors.
+
+The surface of the shield is adorned with intricate engravings, etched into the silver with remarkable precision. These etchings depict scenes of suffering and torment, with souls writhing in agony amidst twisted and contorted forms. The craftsmanship is hauntingly exquisite, capturing the essence of despair and the macabre..Wielding a shield increases your Armor Class by 2. If the opponent attack failed of AC - 3, it take 1D8 magical perf damage. One by day, can make a reaction to inflict bleed to a opponent</p>
 		</description>
 		<setters>
-			<set name="category">Armor</set>
-			<set name="cost" currency="gp">10</set>
-			<set name="weight" lb="6">6 lb.</set>
-			<set name="slot">onehand,secondary</set>
-			<set name="type">Shield</set>
-			<set name="armor">Shield</set>
-			<set name="armorClass">+2</set>
-			<set name="proficiency">ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELD</set>
+			<set name="keywords">shield</set>
+			<set name="category">Magic Armor</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="shield">Armor</set>
 			<set name="attunement">true</set>
+			<set name="rarity">Very Rare</set>
+			<set name="armor">ID_INTERNAL_ARMOR_GROUP_SHIELD</set>
 		</setters>
 		<rules>
 			<stat name="ac:shield" value="2" bonus="shield" />
 		</rules>
 	</element>
 <!--Test-->
-	<element name="Studded Leather" type="Armor" source="Player’s Handbook" id="ID_WOTC_ARMOR_LIGHT_STUDDED_LEATHER">
+	<element name="Wood Armor" type="Armor" source="Mell bag of all" id="ID_WOTC_ARMOR_wood_STUDDED_LEATHER">
 		<supports>ID_INTERNAL_ARMOR_GROUP_LIGHT</supports>
 		<description>
-			<p>Mr sitmhdzdzi.</p>
+			<p>Woodden protection for druid</p>
 		</description>
 		<setters>
 			<set name="category">Armor</set>
 			<set name="cost" currency="gp">80</set>
-			<set name="weight" lb="13">19 lb.</set>
+			<set name="weight" lb="13">1 lb.</set>
 			<set name="slot">body</set>
 			<set name="armor">Light</set>
 			<set name="armorClass">12 + Dex modifier</set>

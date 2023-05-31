@@ -3,7 +3,8 @@
 	<info>
 		<name>Fallen Noble</name>
 		<description>Fallen Noble Background</description>
-			<file name="background-fallen_noble.xml" url="C:\Users\loren\Documents\5e Character Builder\custom\supplements\Mell-Bag-of-ALL\background-fallen_noble.xml" />
+		<update version="0.0.6">
+			<file name="background-fallen_noble.xml" url="https://raw.githubusercontent.com/Azrabelth/mell-bag-of-all/main/Mell-Bag-of-ALL/background-fallen_noble.xml" />
 		</update>
 	</info>
 
@@ -37,7 +38,7 @@
 		</setters>
 		<rules>
 			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_DECEPTION" />
-			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_SLEIGHTOFHAND" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INTIMIDATION" />
 			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_DISGUISE_KIT" />
 			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_FORGERY_KIT" />
 			<grant type="Background Feature" id="ID_BACKGROUND_FEATURE_FALSE_IDENTITY" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE" />

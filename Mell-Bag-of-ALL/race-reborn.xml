@@ -2,7 +2,9 @@
 <elements>
 	<info>
 		<name>Reborn</name>
-		<update version="0.2.2">
+			<description></description>
+    <author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook">Azra</author>
+    <update version="0.2.7">
 			<file name="race-reborn.xml" url="https://raw.githubusercontent.com/Azrabelth/mell-bag-of-all/main/Mell-Bag-of-ALL/race-reborn.xml" />
 		</update>
 	</info>
@@ -21,7 +23,7 @@
                 <tr><td>3</td><td>You recall a childhood memory. What about that event or who you were still influences you?</td></tr>
                 <tr><td>4</td><td>A memory brings with it the voice of someone once close to you. How do they advise you?</td></tr>
                 <tr><td>5</td><td>You recall enjoying something that you can’t stand doing now. What is it? Why don’t you like it now?</td></tr>
-                <tr><td>6</td><td>A memory carries a vivid smell or sensation. What are you going to do to recreate that experience?</td></tr>s
+                <tr><td>6</td><td>A memory carries a vivid smell or sensation. What are you going to do to recreate that experience?</td></tr>
               </table>
 			<h4>Reborn Origins</h4>
 			<p>Reborn might originate from circumstances similar to those of various undead or constructs. The Reborn Origins table provides suggestions for how your character became reborn.</p>
@@ -31,9 +33,9 @@
                 </thead>
                 <tr><td>1</td><td>You were magically resurrected but something went wrong.</td></tr>
                 <tr><td>2</td><td>Stitches bind your body’s mismatched pieces, and your memories come from multiple different lives.</td></tr>
-                <tr><td>3</td><td>After clawing free from your grave, you realized you have no memories except for a single name.</td></tr>
+                 <tr><td>3</td><td>After clawing free from your grave, you realized you have no memories except for a single name.</td></tr>
                 <tr><td>4</td><td>You were a necromancer’s undead servant for years. One day, your consciousness returned.</td></tr>
-                <tr><td>5</td><td>You awoke in an abandoned laboratory alongside complex designs for clockwork organs.</tr>
+                <tr><td>5</td><td>You awoke in an abandoned laboratory alongside complex designs for clockwork organs.</td></tr>
                 <tr><td>6</td><td>You were released after being petrified for generations. Your memories have faded, though, and your body isn't what it once was.</td></tr>
                 <tr><td>7</td><td>Your body hosts a possessing spirit that shares its memories and replaces your missing appendages with phantasmal limbs.</td></tr>
                 <tr><td>8</td><td>In public, you pass as an unremarkable individual, but you can feel the itchy straw stuffing inside you.</td></tr>
@@ -48,90 +50,16 @@
 		</description>
 		<sheet display="false" />
 		
-		<rules>
+		
 			<!--Human Variant Ability Score Increase-->
-  <element name="Ability Score Increase (Strength)" type="Racial Trait" source="Player’s Handbook" id="ID_RACE_VARIANT_HUMAN_VARIANT_STRENGTH">
-    <compendium display="false" />
-    <supports>Human Variant</supports>
-    <description>
-      <p>Your Strength score increases by 1.</p>
-    </description>
-    <sheet display="false" />
-    <rules>
-      <stat name="strength" value="1" alt="Human Variant" />
-    </rules>
-  </element>
-  <element name="Ability Score Increase (Dexterity)" type="Racial Trait" source="Player’s Handbook" id="ID_RACE_VARIANT_HUMAN_VARIANT_DEXTERITY">
-    <compendium display="false" />
-    <supports>Human Variant</supports>
-    <description>
-      <p>Your Dexterity score increases by 1.</p>
-    </description>
-    <sheet display="false" />
-    <rules>
-      <stat name="dexterity" value="1" alt="Human Variant" />
-    </rules>
-  </element>
-  <element name="Ability Score Increase (Constitution)" type="Racial Trait" source="Player’s Handbook" id="ID_RACE_VARIANT_HUMAN_VARIANT_CONSTITUTION">
-    <compendium display="false" />
-    <supports>Human Variant</supports>
-    <description>
-      <p>Your Constitution score increases by 1.</p>
-    </description>
-    <sheet display="false" />
-    <rules>
-      <stat name="constitution" value="1" alt="Human Variant" />
-    </rules>
-  </element>
-  <element name="Ability Score Increase (Intelligence)" type="Racial Trait" source="Player’s Handbook" id="ID_RACE_VARIANT_HUMAN_VARIANT_INTELLIGENCE">
-    <compendium display="false" />
-    <supports>Human Variant</supports>
-    <description>
-      <p>Your Intelligence score increases by 1.</p>
-    </description>
-    <sheet display="false" />
-    <rules>
-      <stat name="intelligence" value="1" alt="Human Variant" />
-    </rules>
-  </element>
-  <element name="Ability Score Increase (Wisdom)" type="Racial Trait" source="Player’s Handbook" id="ID_RACE_VARIANT_HUMAN_VARIANT_WISDOM">
-    <compendium display="false" />
-    <supports>Human Variant</supports>
-    <description>
-      <p>Your Wisdom score increases by 1.</p>
-    </description>
-    <sheet display="false" />
-    <rules>
-      <stat name="wisdom" value="1" alt="Human Variant" />
-    </rules>
-  </element>
-  <element name="Ability Score Increase (Charisma)" type="Racial Trait" source="Player’s Handbook" id="ID_RACE_VARIANT_HUMAN_VARIANT_CHARISMA">
-    <compendium display="false" />
-    <supports>Human Variant</supports>
-    <description>
-      <p>Your Charisma score increases by 1.</p>
-    </description>
-    <sheet display="false" />
-    <rules>
-      <stat name="charisma" value="1" alt="Human Variant" />
-    </rules>
-  </element>
-			<stat name="innate speed" value="30" bonus="base"/>
-			<grant type="Size" id="ID_SIZE_MEDIUM" />
-			<grant type="Vision" id="ID_VISION_DARKVISION" />
-			<grant type ="Racial Trait" id="ID_RACIAL_TRAIT_ANCESTRAL_LEGACY"/>
-			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_INFERNAL_LEGACY" requirements="!ID_INTERNAL_GRANTS_TIEFLING_SUBRACE"/>
-			<grant type="Language" id="ID_LANGUAGE_COMMON"/>	  
-      <select type="Language" name="Language (Human)" supports="Standard||Exotic" requirements="!ID_UA_PS_GRANTS_HUMAN_VARIANT,!ID_WOTC_ERLW_DRAGONMARK_MARK_OF_FINDING"/>
-		</rules>
-	</element>
+  
 	<element name="Ancestral Legacy" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_ANCESTRAL_LEGACY">
 		<description>
 			<p>If you replace a race with this lineage, you can keep the following elements of that race: any skill proficiencies you gained from it and any climbing, flying, or swimming speed you gained from it.
 			<li>If you don't keep any of those elements or you choose this lineage at character creation, you gain proficiency in two skills of your choice.</li></p>
 		</description>
 	</element>
-	<element name="Deathless nature" type="Racial Trait" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_RACIAL_TRAIT_WARFORGED_CONSTRUCTED_RESILIENCE">
+	<element name="Deathless nature" type="Racial Trait" source="Eberron: Rising from the Last War" id="ID_mell_RACIAL_TRAIT_reborn">
 		<description>
 			<p>You were created to have remarkable fortitude, represented by the following benefits:</p>
 			<ul>
@@ -160,5 +88,73 @@
 			<description>You temporarily remember glimpses of the past, perhaps faded memories from ages ago or a previous life. When you make an ability check that uses a skill, you can roll a d6 immediately after seeing the number on the d20 and add the number on the d6 to the check. You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</description>
 		</sheet>
 	</element>
-	
+    
+  <!--Human Variant Ability Score Increase-->
+  <element name="Ability Score Increase (Strength)" type="Racial Trait" source="Player’s Handbook" id="ID_RACE_VARIANT_ùHUMAN_VARIANT_STRENGTH">
+    <compendium display="false" />
+    <supports>Human Variant</supports>
+    <description>
+      <p>Your Strength score increases by 1.</p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <stat name="strength" value="1" alt="Human Variant" />
+    </rules>
+  </element>
+  <element name="Ability Score Increase (Dexterity)" type="Racial Trait" source="Player’s Handbook" id="ID_RACE_VARIANT_ùHUMAN_VARIANT_DEXTERITY">
+    <compendium display="false" />
+    <supports>Human Variant</supports>
+    <description>
+      <p>Your Dexterity score increases by 1.</p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <stat name="dexterity" value="1" alt="Human Variant" />
+    </rules>
+  </element>
+  <element name="Ability Score Increase (Constitution)" type="Racial Trait" source="Player’s Handbook" id="ID_RACE_VARIANT_ùHUMAN_VARIANT_CONSTITUTION">
+    <compendium display="false" />
+    <supports>Human Variant</supports>
+    <description>
+      <p>Your Constitution score increases by 1.</p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <stat name="constitution" value="1" alt="Human Variant" />
+    </rules>
+  </element>
+  <element name="Ability Score Increase (Intelligence)" type="Racial Trait" source="Player’s Handbook" id="ID_RACE_VARIANT_ùHUMAN_VARIANT_INTELLIGENCE">
+    <compendium display="false" />
+    <supports>Human Variant</supports>
+    <description>
+      <p>Your Intelligence score increases by 1.</p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <stat name="intelligence" value="1" alt="Human Variant" />
+    </rules>
+  </element>
+  <element name="Ability Score Increase (Wisdom)" type="Racial Trait" source="Player’s Handbook" id="ID_RACE_VARIANT_ùHUMAN_VARIANT_WISDOM">
+    <compendium display="false" />
+    <supports>Human Variant</supports>
+    <description>
+      <p>Your Wisdom score increases by 1.</p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <stat name="wisdom" value="1" alt="Human Variant" />
+    </rules>
+  </element>
+  <element name="Ability Score Increase (Charisma)" type="Racial Trait" source="Player’s Handbook" id="ID_RACE_VARIANT_ùHUMAN_VARIANT_CHARISMA">
+    <compendium display="false" />
+    <supports>Human Variant</supports>
+    <description>
+      <p>Your Charisma score increases by 1.</p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <stat name="charisma" value="1" alt="Human Variant" />
+    </rules>
+  </element>
+	</element>
 </elements>
