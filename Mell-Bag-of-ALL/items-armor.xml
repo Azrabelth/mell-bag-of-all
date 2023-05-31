@@ -30,10 +30,10 @@
 		</rules>
 	</element>
 <!--Test-->
-	<element name="Studded Leather" type="Armor" source="Player’s Handbook" id="ID_WOTC_ARMOR_LIGHT_STUDDED_LEATHER">
+	<element name="Studded 4Leather" type="Armor" source="Player’s Handbook" id="ID_WOTC_ARMOR_LIGHT_4STUDDED_LEATHER">
 		<supports>ID_INTERNAL_ARMOR_GROUP_LIGHT</supports>
 		<description>
-			<p>Made from tough but flexible leather, studded leather is reinforced with close-set rivets or spikes.</p>
+			<p>Made from 44444444444tough but flexible leather, studded leather is reinforced with close-set rivets or spikes.</p>
 		</description>
 		<setters>
 			<set name="category">Armor</set>
