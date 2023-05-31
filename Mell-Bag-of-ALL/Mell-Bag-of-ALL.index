@@ -10,12 +10,10 @@
 	</info>
 	<files>
 		<file name="source.xml" url="https://raw.githubusercontent.com/Azrabelth/mell-bag-of-all/main/Mell-Bag-of-ALL/source.xml" />
-		<!-- backgrounds
-						<file name="background-fallen_noble.xml" url="C:\Users\loren\Documents\5e Character Builder\custom\supplements\Mell-Bag-of-ALL\background-fallen_noble.xml" />
-		<file name="race-reborn.xml" url="C:\Users\loren\Documents\5e Character Builder\custom\supplements\Mell-Bag-of-ALL\race-reborn.xml" />
-	-->	<!-- items -->
-		<file name="items-armor.xml" url="https://raw.githubusercontent.com/Azrabelth/mell-bag-of-all/main/Mell-Bag-of-ALL/items-armor.xml" />
-		<file name="race-reborn.xml" url="https://raw.githubusercontent.com/Azrabelth/mell-bag-of-all/main/Mell-Bag-of-ALL/race-reborn.xml" />
 		
+		<file name="items-armor.xml" url="https://raw.githubusercontent.com/Azrabelth/mell-bag-of-all/main/Mell-Bag-of-ALL/items-armor.xml" />
+		<file name="race-reborn.xml" url="https://raw.githubusercontent.com/Azrabelth/mell-bag-of-all/main/Mell-Bag-of-ALL/race-reborn.xml"/>
+	
+		<file name="background-fallen_noble.xml" url="	https://raw.githubusercontent.com/Azrabelth/mell-bag-of-all/main/Mell-Bag-of-ALL/background-fallen_noble.xml"/>
 	</files>
 </index>
