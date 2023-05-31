@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Items</name>
+		<description></description>
+		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook">Wizards of the Coast</author>
+		<update version="0.0.6">
+			<file name="items.xml" url="https://raw.githubusercontent.com/Azrabelth/mell-bag-of-all/main/Mell-Bag-of-ALL/items.xml" />
+		</update>
+	</info>
+<!--Maiden-shield-->
+	<element name="IronMaidenShield" type="Armor" source="Mell bag of all" id="ID_IRONMAIDENSHIELD">
+		<supports>ID_INTERNAL_ARMOR_GROUP_IRONMAIDENSHIELD</supports>
+		<description>
+			<p>A shield is made of pure silver and is carried in one hand. Wielding a shield increases your Armor Class by 2. If the opponent attack failed of AC - 3, it take 1D8 magical perf damage. One by day, can make a reaction to inflict bleed to a opponent</p>
+		</description>
+		<setters>
+			<set name="category">Armor</set>
+			<set name="cost" currency="gp">10</set>
+			<set name="weight" lb="6">6 lb.</set>
+			<set name="slot">onehand,secondary</set>
+			<set name="type">Shield</set>
+			<set name="armor">Shield</set>
+			<set name="armorClass">+2</set>
+			<set name="proficiency">ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELD</set>
+			<set name="attunement">true</set>
+		</setters>
+		<rules>
+			<stat name="ac:shield" value="2" bonus="shield" />
+		</rules>
+	</element>
+</elements>
