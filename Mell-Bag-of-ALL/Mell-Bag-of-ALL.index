@@ -3,7 +3,7 @@
 	<info>
 		<name>Mell the Great</name>
 		<description>In an audacious bid for power, t.</description>
-		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/hoard-dragon-queen">Wizards of the Coast</author>
+		<author url="http://dnd.wizards.com/products/tabletop-games">Azrabelth</author>
 		<update version="0.0.7">
 			<file name="Mell-Bag-of-ALL.index" url="https://raw.githubusercontent.com/Azrabelth/mell-bag-of-all/main/Mell-Bag-of-ALL/Mell-Bag-of-ALL.index" />
 		</update>
@@ -15,5 +15,7 @@
 		<file name="race-reborn.xml" url="C:\Users\loren\Documents\5e Character Builder\custom\supplements\Mell-Bag-of-ALL\race-reborn.xml" />
 	-->	<!-- items -->
 		<file name="items-armor.xml" url="https://raw.githubusercontent.com/Azrabelth/mell-bag-of-all/main/Mell-Bag-of-ALL/items-armor.xml" />
+		<file name="race-reborn.xml" url="https://raw.githubusercontent.com/Azrabelth/mell-bag-of-all/main/Mell-Bag-of-ALL/race-reborn.xml" />
+		
 	</files>
 </index>
