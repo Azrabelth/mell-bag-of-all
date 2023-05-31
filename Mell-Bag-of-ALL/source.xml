@@ -7,7 +7,11 @@
 	</info>
 	<element name="Mell bag of all" type="Source" source="Core" id="ID_MELL">
 		<description>
-			<![CDATA[<p><strong>Unravel the mysteries pouch of mell</strong></p><p>Under raging storm clouds, the vampire Count Strahd von Zarovich stands silhouetted against the ancient walls of Castle Ravenloft. Rumbling thunder pounds the castle spires. The wind’s howling increases as he turns his gaze down toward the village of Barovia. A lightning flash rips through the darkness, but Strahd is gone. Only the howling of the wind fills the midnight air. The master of Castle Ravenloft is having guests for dinner—and you are invited.</p>]]>
+			<![CDATA[<p><strong>In the mysterious rabbit's bag, one can sense an aura of intrigue and enigma. The bag itself is made of weathered, dark brown leather, adorned with subtle patterns that hint at ancient symbols and forgotten secrets. Its surface bears the marks of time, with scuffs and scratches adding an air of mystery to its appearance.
+
+The bag is of medium size, neither too large nor too small, giving the impression that it holds just enough to pique one's curiosity without revealing its entire contents. The rabbit, known for its elusive nature, seems to have carefully chosen this bag to conceal its secrets.
+
+As you approach the bag, you notice the distinct smell of antiquity and adventure. The scent invokes images of dusty archives, long-forgotten manuscripts, and whispered tales from distant lands. It's as if the bag has traveled through time, carrying with it the stories of generations past.</p>]]>
 		</description>
 		<setters>
 			<set name="abbreviation">azra</set>
