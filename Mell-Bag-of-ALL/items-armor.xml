@@ -30,15 +30,15 @@
 		</rules>
 	</element>
 <!--Test-->
-	<element name="Studded 4Leather" type="Armor" source="Player’s Handbook" id="ID_WOTC_ARMOR_LIGHT_4STUDDED_LEATHER">
+	<element name="Studded Leather" type="Armor" source="Player’s Handbook" id="ID_WOTC_ARMOR_LIGHT_STUDDED_LEATHER">
 		<supports>ID_INTERNAL_ARMOR_GROUP_LIGHT</supports>
 		<description>
-			<p>Made from 44444444444tough but flexible leather, studded leather is reinforced with close-set rivets or spikes.</p>
+			<p>Mr sitmhdzdzi.</p>
 		</description>
 		<setters>
 			<set name="category">Armor</set>
-			<set name="cost" currency="gp">45</set>
-			<set name="weight" lb="13">13 lb.</set>
+			<set name="cost" currency="gp">80</set>
+			<set name="weight" lb="13">19 lb.</set>
 			<set name="slot">body</set>
 			<set name="armor">Light</set>
 			<set name="armorClass">12 + Dex modifier</set>
@@ -48,5 +48,6 @@
 			<stat name="ac:armored:armor" value="12" />
 		</rules>
 	</element>
+
 
 </elements>
