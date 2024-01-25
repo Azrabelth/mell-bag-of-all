@@ -40,16 +40,15 @@ Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells 
     </description>
 		<sheet display="false" />
 
-		<rules>
-			<stat name="dexterity" value="2" />
-       <stat name="constitution" value="1" />
+    
+<rules>
+			<stat name="dexterity" value="2" requirements="ID_RACE_hexblood" />
+			<stat name="consitution" value="1" requirements="ID_RACE_hexblood" />
 			<stat name="innate speed" value="30" bonus="base" />
 			<grant type="Size" id="ID_SIZE_MEDIUM" />
 			<grant type="Vision" id="ID_VISION_DARKVISION" />
-    
-			<grant type="Language" id="ID_LANGUAGE_COMMON"  />
-         <select type="Language" name="Language" supports="Standard||Exotic"/>
-
+			<grant type="Language" id="ID_LANGUAGE_COMMON" requirements="ID_RACE_hexblood" />
+		</rules>
 		</rules>
 		
 	
