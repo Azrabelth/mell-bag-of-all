@@ -9,9 +9,9 @@
 		</update>
 	</info>
 
-	<element name="Reborn" type="Race" source="Mell bag of ALL" id="ID_RACE_hexblood">
+	<element name="hexblood" type="Race" source="Mell bag of ALL" id="ID_RACE_hexblood">
 		<description>
-			<p class="flavor">Death isn’t always the end. The reborn exemplify this, being individuals who have died yet, somehow, still live. Some reborn exhibit the scars of fatal ends, their ashen flesh or bloodless veins making it clear that they’ve been touched by death. Other reborn are marvels of magic or science, being stitched together from disparate beings or bearing mysterious minds in manufactured bodies. Whatever their origins, reborn know a new life and seek experiences and answers all their own.</p>
+			<p class="flavor">Where wishing fails, ancient magic can offer a heart’s desire—at least, for a time. Hexbloods are individuals infused with eldritch magic, fey energy, or mysterious witchcraft. Some who enter into bargains with hags gain their deepest wishes but eventually find themselves transformed. </p>
 			<h4>Faded Memories</h4>
 			<h4>Hexblood Origins</h4>
 			<p>A bargain with a hag or other eerie forces transformed your character into a magical being. Roll on or choose an option from the Hexblood Origins table to determine how your character gained their lineage.</p>
