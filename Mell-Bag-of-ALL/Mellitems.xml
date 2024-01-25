@@ -9,7 +9,7 @@
 		</update>
 	</info>
 <!--Maiden-shield-->
-	<element name="IronMaidenShield" type="Armor" source="mellitems" id="ID_IRONMAIDENSHIELD">
+	<element name="IronMaidenShield" type="Armor" source="mell-bag-of-all" id="ID_IRONMAIDENSHIELD">
 		<supports>ID_INTERNAL_ARMOR_GROUP_IRONMAIDENSHIELD</supports>
 		<description>
 			<p>A shield is made of pure silver and is carried in one hand. Wielding a shield increases your Armor Class by 2. If the opponent attack failed of AC - 3, it take 1D8 magical perf damage. One by day, can make a reaction to inflict bleed to a opponent</p>

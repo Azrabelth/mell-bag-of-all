@@ -9,7 +9,7 @@
 		</update>
 	</info>
 
-	<element name="Reborn" type="Race" source="Mell bag of ALL" id="ID_RACE_Reborn">
+	<element name="Reborn" type="Race" source="mell-bag-of-all" id="ID_RACE_Reborn">
 		<description>
 			<p class="flavor">Death isn’t always the end. The reborn exemplify this, being individuals who have died yet, somehow, still live. Some reborn exhibit the scars of fatal ends, their ashen flesh or bloodless veins making it clear that they’ve been touched by death. Other reborn are marvels of magic or science, being stitched together from disparate beings or bearing mysterious minds in manufactured bodies. Whatever their origins, reborn know a new life and seek experiences and answers all their own.</p>
 			<h4>Faded Memories</h4>

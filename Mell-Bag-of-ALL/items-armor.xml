@@ -9,7 +9,7 @@
 		</update>
 	</info>
 <!--Maiden-shield-->
-	<element name="SilverMaiden Shield" type="Magic Item" source="Mell bag of all" id="ID_IRONMAIDENSHIELD">
+	<element name="SilverMaiden Shield" type="Magic Item" source="mell-bag-of-all" id="ID_IRONMAIDENSHIELD">
 		<description>
 			<p>Crafted from gleaming silver and fashioned in the form of an iron maiden, this shield strikes fear into the hearts of even the most hardened warriors.
 
@@ -29,7 +29,7 @@ The surface of the shield is adorned with intricate engravings, etched into the 
 		</rules>
 	</element>
 <!--Test-->
-	<element name="Wood Armor" type="Armor" source="Mell bag of all" id="ID_WOTC_ARMOR_wood_STUDDED_LEATHER">
+	<element name="Wood Armor" type="Armor" source="mell-bag-of-all" id="ID_WOTC_ARMOR_wood_STUDDED_LEATHER">
 		<supports>ID_INTERNAL_ARMOR_GROUP_LIGHT</supports>
 		<description>
 			<p>Woodden protection for druid</p>

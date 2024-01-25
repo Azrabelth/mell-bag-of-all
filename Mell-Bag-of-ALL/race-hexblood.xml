@@ -9,7 +9,7 @@
 		</update>
 	</info>
 
-	<element name="hexblood" type="Race" source="Mell bag of ALL" id="ID_RACE_hexblood">
+	<element name="hexblood" type="Race" source="mell-bag-of-all" id="ID_RACE_hexblood">
 		<description>
 			<p class="flavor">Where wishing fails, ancient magic can offer a heart’s desire—at least, for a time. Hexbloods are individuals infused with eldritch magic, fey energy, or mysterious witchcraft. Some who enter into bargains with hags gain their deepest wishes but eventually find themselves transformed. </p>
 			<h4>Faded Memories</h4>
@@ -39,78 +39,18 @@
 Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells (choose the ability when you gain this lineage).</p>
     </description>
 		<sheet display="false" />
-		
-		
-			<!--Human Variant Ability Score Increase-->
-  
 
+		<rules>
+			<stat name="dexterity" value="2" />
+       <stat name="constitution" value="1" />
+			<stat name="innate speed" value="30" bonus="base" />
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<grant type="Vision" id="ID_VISION_DARKVISION" />
     
-  <!--Human Variant Ability Score Increase-->
-  <element name="Ability Score Increase (Strength)" type="Racial Trait" source="Player’s Handbook" id="ID_RACE_VARIANT_ùHUMAN_VARIANT_STRENGTH">
-    <compendium display="false" />
-    <supports>Human Variant</supports>
-    <description>
-      <p>Your Strength score increases by 1.</p>
-    </description>
-    <sheet display="false" />
-    <rules>
-      <stat name="strength" value="1" alt="Human Variant" />
-    </rules>
-  </element>
-  <element name="Ability Score Increase (Dexterity)" type="Racial Trait" source="Player’s Handbook" id="ID_RACE_VARIANT_ùHUMAN_VARIANT_DEXTERITY">
-    <compendium display="false" />
-    <supports>Human Variant</supports>
-    <description>
-      <p>Your Dexterity score increases by 1.</p>
-    </description>
-    <sheet display="false" />
-    <rules>
-      <stat name="dexterity" value="1" alt="Human Variant" />
-    </rules>
-  </element>
-  <element name="Ability Score Increase (Constitution)" type="Racial Trait" source="Player’s Handbook" id="ID_RACE_VARIANT_ùHUMAN_VARIANT_CONSTITUTION">
-    <compendium display="false" />
-    <supports>Human Variant</supports>
-    <description>
-      <p>Your Constitution score increases by 1.</p>
-    </description>
-    <sheet display="false" />
-    <rules>
-      <stat name="constitution" value="1" alt="Human Variant" />
-    </rules>
-  </element>
-  <element name="Ability Score Increase (Intelligence)" type="Racial Trait" source="Player’s Handbook" id="ID_RACE_VARIANT_ùHUMAN_VARIANT_INTELLIGENCE">
-    <compendium display="false" />
-    <supports>Human Variant</supports>
-    <description>
-      <p>Your Intelligence score increases by 1.</p>
-    </description>
-    <sheet display="false" />
-    <rules>
-      <stat name="intelligence" value="1" alt="Human Variant" />
-    </rules>
-  </element>
-  <element name="Ability Score Increase (Wisdom)" type="Racial Trait" source="Player’s Handbook" id="ID_RACE_VARIANT_ùHUMAN_VARIANT_WISDOM">
-    <compendium display="false" />
-    <supports>Human Variant</supports>
-    <description>
-      <p>Your Wisdom score increases by 1.</p>
-    </description>
-    <sheet display="false" />
-    <rules>
-      <stat name="wisdom" value="1" alt="Human Variant" />
-    </rules>
-  </element>
-  <element name="Ability Score Increase (Charisma)" type="Racial Trait" source="Player’s Handbook" id="ID_RACE_VARIANT_ùHUMAN_VARIANT_CHARISMA">
-    <compendium display="false" />
-    <supports>Human Variant</supports>
-    <description>
-      <p>Your Charisma score increases by 1.</p>
-    </description>
-    <sheet display="false" />
-    <rules>
-      <stat name="charisma" value="1" alt="Human Variant" />
-    </rules>
-  </element>
-	</element>
+			<grant type="Language" id="ID_LANGUAGE_COMMON"  />
+         <select type="Language" name="Language" supports="Standard||Exotic"/>
+
+		</rules>
+		
+	
 </elements>
